@@ -23,10 +23,10 @@ writetable(T,filename);
 
 # Figure decorations 
 
-set(gca, 'LineWidth', 2);
-box on
-set(gca, 'Fontsize', 16);
-set(gcf,'Position',[100 200 500 400])
-xlabel('wavelength (nm)');
-ylabel('\delta\Gamma/\delta\lambda');
+set(gca, 'LineWidth', 2);  
+box on  
+set(gca, 'Fontsize', 16);  
+set(gcf,'Position',[100 200 500 400])  
+xlabel('wavelength (nm)');  
+ylabel('\delta\Gamma/\delta\lambda');  
 
